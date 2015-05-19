@@ -20,7 +20,7 @@ makeCacheMatrix <- function(z = matrix()) {
 }
 
 
-## Write a short comment describing this function
+## the cacheSolve function figures the inverse of the special "matrix" returned by makeCacheMatrix.  If the inverse of the special matrix has already been cached, it would skip the computing part and return the inverse of the special "matrix" from cache
 
 cacheSolve <- function(z, ...) {
   ## Return a matrix that is the inverse of the cached matrix z
